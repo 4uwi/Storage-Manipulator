@@ -7,7 +7,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 conn = sqlite3.connect('data.sqlite')
 cursor = conn.cursor()
 
-password_for_operation = "admin password"
+password_for_operation = "admin"
 
 class sql():
     res = []
