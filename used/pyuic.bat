@@ -1,0 +1,1 @@
+C:\Users\Artem\venv\Scripts\pyuic5.exe -x %1.ui -o %1.py

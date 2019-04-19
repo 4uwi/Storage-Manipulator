@@ -1,0 +1,117 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'map.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_StorageMap(object):
+    def setupUi(self, StorageMap):
+        StorageMap.setObjectName("StorageMap")
+        StorageMap.resize(651, 451)
+        StorageMap.setStyleSheet("image: url(./map.png)\n"
+"")
+        self.pushButton_1 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_1.setGeometry(QtCore.QRect(12, 13, 252, 38))
+        self.pushButton_1.setStyleSheet("")
+        self.pushButton_1.setFlat(True)
+        self.pushButton_1.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_2.setGeometry(QtCore.QRect(13, 62, 251, 42))
+        self.pushButton_2.setFlat(True)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_3.setGeometry(QtCore.QRect(13, 116, 251, 38))
+        self.pushButton_3.setFlat(True)
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_4.setGeometry(QtCore.QRect(14, 166, 251, 41))
+        self.pushButton_4.setStyleSheet("")
+        self.pushButton_4.setFlat(True)
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_5.setGeometry(QtCore.QRect(15, 222, 251, 37))
+        self.pushButton_5.setFlat(True)
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_6 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_6.setGeometry(QtCore.QRect(15, 270, 252, 42))
+        self.pushButton_6.setFlat(True)
+        self.pushButton_6.setObjectName("pushButton_6")
+        self.pushButton_7 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_7.setGeometry(QtCore.QRect(14, 331, 252, 37))
+        self.pushButton_7.setFlat(True)
+        self.pushButton_7.setObjectName("pushButton_7")
+        self.pushButton_8 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_8.setGeometry(QtCore.QRect(14, 380, 253, 41))
+        self.pushButton_8.setFlat(True)
+        self.pushButton_8.setObjectName("pushButton_8")
+        self.pushButton_9 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_9.setGeometry(QtCore.QRect(374, 9, 252, 39))
+        self.pushButton_9.setFlat(True)
+        self.pushButton_9.setObjectName("pushButton_9")
+        self.pushButton_10 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_10.setGeometry(QtCore.QRect(373, 59, 254, 42))
+        self.pushButton_10.setFlat(True)
+        self.pushButton_10.setObjectName("pushButton_10")
+        self.pushButton_11 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_11.setGeometry(QtCore.QRect(376, 114, 252, 38))
+        self.pushButton_11.setFlat(True)
+        self.pushButton_11.setObjectName("pushButton_11")
+        self.pushButton_12 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_12.setGeometry(QtCore.QRect(377, 163, 252, 42))
+        self.pushButton_12.setFlat(True)
+        self.pushButton_12.setObjectName("pushButton_12")
+        self.pushButton_13 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_13.setGeometry(QtCore.QRect(377, 220, 252, 38))
+        self.pushButton_13.setFlat(True)
+        self.pushButton_13.setObjectName("pushButton_13")
+        self.pushButton_14 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_14.setGeometry(QtCore.QRect(378, 269, 252, 41))
+        self.pushButton_14.setFlat(True)
+        self.pushButton_14.setObjectName("pushButton_14")
+        self.pushButton_15 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_15.setGeometry(QtCore.QRect(378, 328, 252, 37))
+        self.pushButton_15.setFlat(True)
+        self.pushButton_15.setObjectName("pushButton_15")
+        self.pushButton_16 = QtWidgets.QPushButton(StorageMap)
+        self.pushButton_16.setGeometry(QtCore.QRect(379, 377, 251, 41))
+        self.pushButton_16.setAutoFillBackground(False)
+        self.pushButton_16.setFlat(True)
+        self.pushButton_16.setObjectName("pushButton_16")
+
+        self.retranslateUi(StorageMap)
+        QtCore.QMetaObject.connectSlotsByName(StorageMap)
+
+    def retranslateUi(self, StorageMap):
+        _translate = QtCore.QCoreApplication.translate
+        StorageMap.setWindowTitle(_translate("StorageMap", "Map"))
+        self.pushButton_1.setText(_translate("StorageMap", "S"))
+        self.pushButton_2.setText(_translate("StorageMap", "S"))
+        self.pushButton_3.setText(_translate("StorageMap", "S"))
+        self.pushButton_4.setText(_translate("StorageMap", "S"))
+        self.pushButton_5.setText(_translate("StorageMap", "S"))
+        self.pushButton_6.setText(_translate("StorageMap", "S"))
+        self.pushButton_7.setText(_translate("StorageMap", "S"))
+        self.pushButton_8.setText(_translate("StorageMap", "S"))
+        self.pushButton_9.setText(_translate("StorageMap", "S"))
+        self.pushButton_10.setText(_translate("StorageMap", "S"))
+        self.pushButton_11.setText(_translate("StorageMap", "S"))
+        self.pushButton_12.setText(_translate("StorageMap", "S"))
+        self.pushButton_13.setText(_translate("StorageMap", "S"))
+        self.pushButton_14.setText(_translate("StorageMap", "S"))
+        self.pushButton_15.setText(_translate("StorageMap", "S"))
+        self.pushButton_16.setText(_translate("StorageMap", "S"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    StorageMap = QtWidgets.QWidget()
+    ui = Ui_StorageMap()
+    ui.setupUi(StorageMap)
+    StorageMap.show()
+    sys.exit(app.exec_())
+
