@@ -130,9 +130,9 @@ class Ui_StorageMap(object):
         self.pushButton_15.clicked.connect(lambda: self.viewProductFromMap(self.pushButton_15.objectName()))
         self.pushButton_16.clicked.connect(lambda: self.viewProductFromMap(self.pushButton_16.objectName()))
 
-    def viewProductFromMap(self, str):
+    def viewProductFromMap(self, map_button_index_str):
         MainWindowUi.productListWidget.clear()
-        but_num = str[11:]
+        but_num = map_button_index_str[11:]
         que = "SELECT name_product, sertificate, count, unit, place FROM product WHERE place LIKE '%c" + but_num + "%' "
         sql.res = cursor.execute(que).fetchall()
         MainWindowUi.productListUpdate()
@@ -620,7 +620,7 @@ class Ui_LogonWindow(object):
         QtCore.QMetaObject.connectSlotsByName(LogonWindow)
         self.loginButton.clicked.connect(self.login)
         self.loginButton.setShortcut("Return")
-        self.nameLine.setFocus
+        self.nameLine.setFocus()
         f.close()
         self.regButton.clicked.connect(self.regestration)
 
@@ -910,7 +910,7 @@ class Ui_MainWindow(object):
         self.Search_line.setFocus()
         self.item = QtWidgets.QListWidgetItem
         self.productListWidget.itemClicked.connect(self.fillDescription)
-        self.giveProduct_button.clicked.connect(lambda :GiveProduct.show())
+        self.giveProduct_button.clicked.connect(lambda : GiveProduct.show())
         self.history_button.clicked.connect(lambda : History.show())
 
     def retranslateUi(self, MainWindow):
