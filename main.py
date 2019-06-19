@@ -15,6 +15,64 @@ class sql():
 class employee():
     login: str = ""
     pas: str = ""
+""" 
+class Ui_Settings(object):
+    def setupUi(self, Settings):
+        Settings.setObjectName("Settings")
+        Settings.resize(161, 210)
+        Settings.setWindowIcon(ico)
+        self.sidePanelSettings_label = QtWidgets.QLabel(Settings)
+        self.sidePanelSettings_label.setGeometry(QtCore.QRect(10, 10, 141, 16))
+        self.sidePanelSettings_label.setObjectName("sidePanelSettings_label")
+        self.languageSettings_label = QtWidgets.QLabel(Settings)
+        self.languageSettings_label.setGeometry(QtCore.QRect(10, 110, 47, 13))
+        self.languageSettings_label.setObjectName("languageSettings_label")
+        self.languageSettings_combox = QtWidgets.QComboBox(Settings)
+        self.languageSettings_combox.setGeometry(QtCore.QRect(20, 130, 111, 22))
+        self.languageSettings_combox.setObjectName("languageSettings_combox")
+        self.saveSettings_pushbutton = QtWidgets.QPushButton(Settings)
+        self.saveSettings_pushbutton.setGeometry(QtCore.QRect(10, 160, 141, 41))
+        self.saveSettings_pushbutton.setObjectName("saveSettings_pushbutton")
+        self.widget = QtWidgets.QWidget(Settings)
+        self.widget.setGeometry(QtCore.QRect(20, 40, 84, 42))
+        self.widget.setObjectName("widget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.widget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.sidePanelCheckButton_true = QtWidgets.QRadioButton(self.widget)
+        self.sidePanelCheckButton_true.setChecked(True)
+        self.sidePanelCheckButton_true.setObjectName("sidePanelCheckButton_true")
+        self.verticalLayout.addWidget(self.sidePanelCheckButton_true)
+        self.sidePanelCheckButton_false = QtWidgets.QRadioButton(self.widget)
+        self.sidePanelCheckButton_false.setObjectName("sidePanelCheckButton_false")
+        self.verticalLayout.addWidget(self.sidePanelCheckButton_false)
+
+        self.retranslateUi(Settings)
+        QtCore.QMetaObject.connectSlotsByName(Settings)
+
+        event = QtCore.QEvent(self.checkbox_changed())
+
+        self.sidePanelCheckButton_false.changeEvent(event)
+
+    def retranslateUi(self, Settings):
+        _translate = QtCore.QCoreApplication.translate
+        Settings.setWindowTitle(_translate("Settings", "Form"))
+        self.sidePanelSettings_label.setText(_translate("Settings", "Бокова панель інформації:"))
+        self.languageSettings_label.setText(_translate("Settings", "Мова:"))
+        self.saveSettings_pushbutton.setText(_translate("Settings", "Зберегти"))
+        self.sidePanelCheckButton_true.setText(_translate("Settings", "Вкл"))
+        self.sidePanelCheckButton_false.setText(_translate("Settings", "Викл"))
+
+    def checkbox_changed(self):
+        if(self.sidePanelCheckButton_true.isChecked() == True):
+            MainWindowUi.verticalLayoutWidget.setEnabled(True)
+            print(1)
+
+        if(self.sidePanelCheckButton_false.isChecked() == False):
+            MainWindowUi.verticalLayoutWidget.setDisabled(True)
+            print(2)
+            
+"""
 
 class Ui_StorageMap(object):
     def setupUi(self, StorageMap):
@@ -667,7 +725,6 @@ class Ui_LogonWindow(object):
                     self.passLine.setDisabled(True)
                     self.label.setText("Введіть операційний пароль")
 
-
     def loginlabel_errLogin(self):
         self.label.setText('Невірний логін чи пароль')
 
@@ -801,6 +858,9 @@ class Ui_MainWindow(object):
         self.map_button = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.map_button.setObjectName("map_button")
         self.mainMenulayout.addWidget(self.map_button)
+        self.settings_button = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.settings_button.setObjectName("settings_button")
+        self.mainMenulayout.addWidget(self.settings_button)
         self.exit_button = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.exit_button.setObjectName("exit_button")
         self.mainMenulayout.addWidget(self.exit_button)
@@ -912,10 +972,12 @@ class Ui_MainWindow(object):
         self.productListWidget.itemClicked.connect(self.fillDescription)
         self.giveProduct_button.clicked.connect(lambda : GiveProduct.show())
         self.history_button.clicked.connect(lambda : History.show())
+        self.settings_button.clicked.connect(lambda : Settings.show())
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Головна"))
+        self.settings_button.setText(_translate("MainWindow", "Налаштування"))
         self.addProduct_button.setText(_translate("MainWindow", "Додати продукт"))
         self.giveProduct_button.setText(_translate("MainWindow", "Видати продукт"))
         self.history_button.setText(_translate("MainWindow", "Продивитися історію"))
@@ -1019,7 +1081,12 @@ class Ui_MainWindow(object):
         sys.exit()
 
 app = QtWidgets.QApplication(sys.argv)
+
 ico = QtGui.QIcon("SkladLogo.png")
+
+#Settings = QtWidgets.QWidget()
+#SettingsUi = Ui_Settings()
+#SettingsUi.setupUi(Settings)
 
 StorageMap = QtWidgets.QWidget()
 MapUi = Ui_StorageMap()

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34652969-fa3c-4595-92bb-d02105c9b8a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +16,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="923" selection-start-line="923" selection-end-line="923" />
+            <state relative-caret-position="60">
+              <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#2315#2839#0" />
+                <element signature="e#309#8013#0" />
+                <element signature="e#348#4452#0" />
+                <element signature="e#4503#7628#0" />
+                <element signature="e#8049#14679#0" />
+                <element signature="e#14714#19895#0" />
+                <element signature="e#19930#34433#0" />
+                <element signature="e#34469#39742#0" />
+                <element signature="e#39774#43408#0" />
+                <element signature="e#43443#57266#0" />
+                <element signature="e#54211#56043#0" />
+                <element signature="e#56085#56632#0" />
+                <element signature="e#56675#56801#0" />
+                <element signature="e#56835#56959#0" />
+                <element signature="e#56888#56905#0" />
+                <element signature="e#56941#57266#0" />
               </folding>
             </state>
           </provider>
@@ -36,7 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>IN</find>
       <find>IN(</find>
       <find>LIKE</find>
       <find>nameProduct_combobox</find>
@@ -66,6 +82,7 @@
       <find>curso</find>
       <find>lambda</find>
       <find>setFoc</find>
+      <find>res</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Artem\AppData\Local\Programs\Python\Python36\Lib\site-packages\PyQt5</dir>
@@ -93,14 +110,16 @@
         <option value="$PROJECT_DIR$/giveproduct.py" />
         <option value="$PROJECT_DIR$/countries.txt" />
         <option value="$PROJECT_DIR$/history.py" />
+        <option value="$PROJECT_DIR$/used/settings.py" />
         <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="816" />
-    <option name="height" value="745" />
+    <option name="x" value="170" />
+    <option name="y" value="92" />
+    <option name="width" value="1026" />
+    <option name="height" value="554" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -110,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,13 +140,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/GitHubDesktop.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jodjando" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -288,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555694602068</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="admin password change">
+      <created>1555695470476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555695470476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -302,6 +328,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.140625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,7 +341,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32843137" />
@@ -324,6 +351,16 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -350,10 +387,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="charm text commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="charm text commit" />
+    <MESSAGE value="admin password change" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin password change" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mainwindow.ui.autosave" />
@@ -411,12 +463,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/history.py" />
     <entry file="file://$PROJECT_DIR$/setup.py" />
+    <entry file="file://$PROJECT_DIR$/used/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="923" selection-start-line="923" selection-end-line="923" />
+        <state relative-caret-position="60">
+          <caret line="52" column="53" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#2315#2839#0" />
+            <element signature="e#309#8013#0" />
+            <element signature="e#348#4452#0" />
+            <element signature="e#4503#7628#0" />
+            <element signature="e#8049#14679#0" />
+            <element signature="e#14714#19895#0" />
+            <element signature="e#19930#34433#0" />
+            <element signature="e#34469#39742#0" />
+            <element signature="e#39774#43408#0" />
+            <element signature="e#43443#57266#0" />
+            <element signature="e#54211#56043#0" />
+            <element signature="e#56085#56632#0" />
+            <element signature="e#56675#56801#0" />
+            <element signature="e#56835#56959#0" />
+            <element signature="e#56888#56905#0" />
+            <element signature="e#56941#57266#0" />
           </folding>
         </state>
       </provider>
